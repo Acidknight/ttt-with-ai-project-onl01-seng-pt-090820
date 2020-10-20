@@ -1,6 +1,6 @@
 require "pry"
 
-class Player::Computer < Player
+class Players::Computer < Players
   attr_accessor :board
   WIN_COMBINATIONS = [
   [0, 1, 2],
